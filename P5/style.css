@@ -1,0 +1,68 @@
+.framed{
+  stroke: none;
+  fill:none;
+}
+.names {
+fill: none;
+stroke: #fff;
+stroke-linejoin: round;
+}
+
+.texts {
+  font-family:"avenir next", Arial, sans-serif;
+  font-size: 15px;
+  fill:#cccccc;
+  margin-left:2px;
+}
+
+.labels{
+  font-family:"avenir next", Arial, sans-serif;
+  font-size: 20px;
+  fill:black;
+
+}
+
+.labels2{
+  font-family:"avenir next", Arial, sans-serif;
+  font-size: 16px;
+  fill:black;
+
+}
+
+.numbers {
+  font-family:"avenir next", Arial, sans-serif;
+  font-size:20px;
+  fill:black;
+  margin-left:40px;
+}
+
+.info{
+  font-family:"avenir next", Arial, sans-serif;
+  font-size: 20px;
+  fill:red
+  margin-left:2px;
+}
+
+
+
+.crash-circle{
+  opacity:0.5;
+  fill: darkblue;
+}
+.crash-mouse-over{
+  fill: yellow;
+  transform: scale(3,3);
+}
+
+div.tooltip { 
+    position: absolute;     
+    text-align: center;     
+    width: 70px;          
+    height: 60px;         
+    padding: 2px;       
+    font: 12px sans-serif;    
+    background: lightsteelblue; 
+    border: 0px;    
+    border-radius: 8px;     
+    pointer-events: none;     
+}

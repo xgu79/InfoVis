@@ -1,0 +1,31 @@
+body {
+    font-family: "Open Sans";
+}
+
+
+.axis text {
+    fill: #555;
+}
+
+
+.axis path {
+    stroke: #555;
+}
+
+#main {
+    padding: 20px;
+}
+
+text.lable {
+    text-anchor : middle; 
+    font-size: 12px;
+    fill: #555;
+    font-family: sans-serif;
+}
+
+text.title {
+    text-anchor: middle;
+    font-size: 14px;
+    fill: #333;
+    font-family: sans-serif;
+}
